@@ -16,13 +16,19 @@ colors:
     font-family: Arial, Helvetica, sans-serif
 }
 body {
-    background-image: url(img/bg.jpg); 
+    background-image: url(img/bg.jpg);
+    margin-left: 100px;
+    margin-right: 100px;
+    border:solid 2px #ff8523;
+    border-radius:4px;
 }
 #site_header  {
 background-color: #ff8523;
 height: 200px;
 }
-    
+ head > title{
+     text-align: justify;
+ }   
 .main_navigation > a {
     border: 1px solid white;
     border-radius: 5px;
@@ -41,9 +47,10 @@ h2 {
     color: #1fabe5; 
     
 }
-div { 
+#page_content { 
     background-color: white;
-    margin: 50px 30px 50px 30px
+    padding: 20px;
+
 }
 
 
@@ -73,22 +80,59 @@ height: auto;
 width: auto;
 }
 .name {
-    background-color: orange;
-    height: 75px;
-    border-radius: 5px;
-    padding:10px;
-    padding-left: 30px;
-    padding-right:30px;
-    font-size: 20px;
+    background-color:#ff8523;
+    border-radius: 5px;}
+    padding:25px;
     color: white;
-    font-weight: bold;
+    font: bold;
+    font-size: 30px;
     text-decoration: none;
-    text-align: center;
-    align-items: 
+    text-align: left;
 }
 form {
-    background-color: #eee;
-    padding: 1rem;
-    
+    background-color: #dddddd;
+    padding: 1px;
 }
+input {
+    width: 300px;
+    height: 50px;
+}
+form > div{   
+background-color: #dddddd;
+font-weight: bold;
+font-size: 20px;
+border-radius: 6px;
+font-weight: bold;
+}
+#bio{
+    border: 1px solid #1fabe5;
+    width: 98%;
+    height: 300px;
+    padding:10px;
+}
+
+#submit_button{
+    background-color: #1fabe5;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+text-transform: uppercase;
+height: 50px;
+width:130px;
+}
+tbody > td > img{ 
+    display: block;
+    margin: auto;
+}
+table{
+    width: 100%;
+}
+#page_content section{
+    border-bottom: 4px solid #dddddd;
+    padding-bottom: 30px;
+}
+
+.city_container {
+    padding: 20px 0;
 
