@@ -17,16 +17,19 @@ colors:
 }
 body {
     background-image: url(img/bg.jpg);
-    margin-left: 100px;
-    margin-right: 100px;
     border:solid 2px #ffd24a;
     border-radius:4px;
+     margin: 0px auto 0px;
 }
+ body > div{
+        margin: 0px auto 0px;
+    }
 #site_header  {
 background-color: #ff8523;
 height: 200px;
+padding: 10px;
 }
- head > title{
+head > title{
      text-align: justify;
  }   
 .main_navigation > a {
@@ -121,6 +124,7 @@ font-weight: bold;
 text-transform: uppercase;
 height: 50px;
 width:130px;
+border: 0px;
 }
 tbody > td > img{ 
     display: block;
