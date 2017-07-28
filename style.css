@@ -17,15 +17,19 @@ colors:
 }
 body {
     background-image: url(img/bg.jpg);
-    border:solid 2px #ffd24a;
+    /* border:solid 2px #ffd24a; */
     border-radius:4px;
      margin: 0px auto 0px;
+     padding: 20px;
 }
  body > div{
         margin: 0px auto 0px;
+        border:solid 2px #ffd24a;
     }
 #site_header  {
 background-color: #ff8523;
+padding: 10px;
+
 height: 200px;
 padding: 10px;
 }
@@ -89,7 +93,7 @@ padding: 0px;
     padding:25px;
     color: white;
     font: bold;
-    font-size: 30px;
+    font-weight: 1.6;
     text-decoration: none;
     text-align: left;
 }
@@ -140,4 +144,8 @@ table{
 
 .city_container {
     padding: 20px 0;
-
+}
+.name{
+    justify-content: center;
+    display: flex;
+}
