@@ -20,7 +20,7 @@ body {
     /* border:solid 2px #ffd24a; */
     border-radius:4px;
      margin: 0px auto 0px;
-     padding: 20px;
+     /* padding: 70px; */
 }
  body > div{
         margin: 0px auto 0px;
@@ -85,7 +85,7 @@ tbody > tr > td > img{
 max-width: 75px;
 height: 100px;
 width: 200px;
-padding: 0px;
+justify-content: center;
 }
 .name {
     background-color:#ff8523;
@@ -99,7 +99,9 @@ padding: 0px;
 }
 form {
     background-color: #dddddd;
-    padding: 1px;
+    padding: 20px;
+    border-radius: 5px;
+    justify-content: center;
 }
 input {
     width: 300px;
@@ -148,4 +150,11 @@ table{
 .name{
     justify-content: center;
     display: flex;
+    flex: space-around;
+}
+label{
+    margin: 10px;
+}
+textarea{
+    margin: 10px;
 }
